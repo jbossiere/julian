@@ -15,7 +15,7 @@ body {
 
 #work-link:hover {
 	text-decoration: none;
-	color: #999999;
+	color: black;
 }
 
 #content {
@@ -35,12 +35,8 @@ body {
 	color: #0077B5;
 }
 
-#mediumLink:hover {
-	color: red;
-}
-
 .body-text {
-	line-height: 1.1em;
+	line-height: 1.2em;
 }
 
 img {
@@ -56,4 +52,20 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+#text-shadow {
+  text-shadow:
+    -2px -2px white,
+    -2px 2px white,
+    2px -2px white,
+    2px 2px white;
+}
+
+#underline {
+  background-size: 1px 1em;
+  box-shadow:
+    inset 0 -0.175em white,
+    inset 0 -0.2em #000;
+  display: inline;
 }
