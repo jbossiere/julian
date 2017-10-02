@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('Futura.ttc');
+}
+
+body {
+	font-family: 'Futura', 'Helvetica Neue', sans-serif;
+	background-color: white;
+	color: black;
+}
+
+#work-link {
+	color: #ff3333;
+}
+
+#work-link:hover {
+	text-decoration: none;
+	color: #999999;
+}
+
+#content {
+	margin-top: 200px;
+}
+
+.fa {
+	margin-top: 30px;
+}
+
+.socialLink {
+	color: black;
+	padding-right: 20px
+}
+
+#linkedinLink:hover {
+	color: #0077B5;
+}
+
+#mediumLink:hover {
+	color: red;
+}
+
+.body-text {
+	line-height: 1.1em;
+}
+
+img {
+	max-width: 300px;
+}
+
+.project {
+	padding: 20px;
+}
+
+.projects {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
