@@ -7,89 +7,98 @@ body {
 	font-family: 'Futura', 'Helvetica Neue', sans-serif;
 	background-color: white;
 	color: black;
+	margin-top: 200px;
 }
 
 #about {
 	margin-top: 30px;
 }
-
-#work-link:link {
-	color: #666666;
+#description {
+	margin-top: 15px;
 }
 
-#work-link:visited {
-	/*text-decoration: none;*/
-	color: #666;
-}
-
-#work-link:hover {
-	text-decoration: none;
+a {
 	color: #f33;
 }
 
-#work-link:active {
+a:visited {
+	color: #f33;
+}
+
+a:hover {
+	color: #666;
+}
+
+
+/*#linkedinLink {
 	text-decoration: none;
-}
-
-#content {
-	margin-top: 200px;
-}
-
-.fa {
-	margin-top: 30px;
-}
-
-#linkedinLink:link {
 	color: #777;
 }
 
+.socialLink {
+	margin-top: 30px;
+}
+
 #linkedinLink:visited {
+	text-decoration: none;
 	color: #777;
 }
 
 #linkedinLink:hover {
+	text-decoration: none;
 	color: #0077B5;
-}
+}*/
 
 .body-text {
 	line-height: 1.5em;
 }
 
 img {
-	max-width: 300px;
+	width: 100%;
 }
 
-.project {
-	padding: 20px;
+@media only screen and (max-width: 900px) {
+	img {
+		display: none;
+	}
 }
 
-.projects {
-	margin-top: 30px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
+
+
 
 @media only screen and (max-width: 500px) {
-    #content {
+    body {
 		margin-top: 100px;
 	}
 
-	#work-link:link {
+	img {
+		display: none;
+	}
+
+	#about {
+		margin-top: 40px;
+	}
+	#description {
+		margin-top: 30px;
+	}
+
+/*	#work-link:link {
 		color: #f33;
 	}
 
 	#work-link:visited {
 		color: #f33;
-	}
+	}*/
 
-	#linkedinLink:link {
+/*	#linkedinLink:link {
+		text-decoration: none;
 		color: #0077B5;
 	}
 
 	#linkedinLink:visited {
+		text-decoration: none;
 		color: #0077B5;
-	}
+	}*/
 }
 
 
