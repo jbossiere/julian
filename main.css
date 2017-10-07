@@ -85,6 +85,9 @@ img {
 	img {
 		display: none;
 	}
+	#text-div {
+		padding-right: 0;
+	}
 }
 
 
