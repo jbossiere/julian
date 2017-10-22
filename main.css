@@ -1,12 +1,26 @@
 @font-face {
-  font-family: 'HelveticaNeue';
-  src: url('HelveticaNeue.dfont');
+	font-family: 'Futura';
+  	src: 
+  		local('Futura'),
+  		url('fonts/FuturaStd-Book.otf')
+  		format('opentype');
+}
+
+@font-face {
+	font-family: 'Futura';
+  	src: 
+  		local('Futura Bold'),
+  		local('Futura-Bold'),
+  		url('fonts/FuturaStd-Bold.otf')
+  		format('opentype');
 }
 
 body {
-	font-family:'Helvetica Neue', sans-serif;
+	font-family:'Futura', sans-serif;
 	background-color: white;
 	color: black;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 #about {
@@ -41,7 +55,6 @@ a:hover {
 #img-div {
 	display: flex;
 	flex-wrap: nowrap;
-	/*background-image: url("profile.jpg")*/
 }
 
 img {
