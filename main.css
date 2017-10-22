@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Futura';
+	font-family: 'Futura Std';
   	src: 
   		local('Futura'),
   		url('fonts/FuturaStd-Book.otf')
@@ -7,20 +7,20 @@
 }
 
 @font-face {
-	font-family: 'Futura';
+	font-family: 'Futura Std';
   	src: 
   		local('Futura Bold'),
   		local('Futura-Bold'),
   		url('fonts/FuturaStd-Bold.otf')
   		format('opentype');
+  		font-weight: bold;
 }
 
 body {
-	font-family:'Futura', sans-serif;
+	font-family:'Futura Std', sans-serif;
 	background-color: white;
 	color: black;
 	font-size: 20px;
-	font-weight: bold;
 }
 
 #about {
@@ -66,33 +66,9 @@ img {
 	padding-right: 60px;
 }
 
-
-/*#linkedinLink {
-	text-decoration: none;
-	color: #777;
-}
-
-.socialLink {
-	margin-top: 30px;
-}
-
-#linkedinLink:visited {
-	text-decoration: none;
-	color: #777;
-}
-
-#linkedinLink:hover {
-	text-decoration: none;
-	color: #0077B5;
-}*/
-
 .body-text {
 	line-height: 1.5em;
 }
-
-/*img {
-	width: 100%;
-}*/
 
 @media only screen and (max-width: 900px) {
 	img {
@@ -102,8 +78,6 @@ img {
 		padding-right: 0;
 	}
 }
-
-
 
 
 @media only screen and (max-width: 500px) {
