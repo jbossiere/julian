@@ -6,7 +6,7 @@
   		format('opentype');
 }
 
-@font-face {
+/*@font-face {
 	font-family: 'Futura Std';
   	src: 
   		local('Futura Bold'),
@@ -14,7 +14,7 @@
   		url('fonts/FuturaStd-Bold.otf')
   		format('opentype');
   		font-weight: bold;
-}
+}*/
 
 body {
 	font-family:'Futura Std', sans-serif;
