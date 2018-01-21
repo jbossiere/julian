@@ -81,6 +81,10 @@ a:hover {
 		font-size: 24px;
 	}
 
+	#text-div {
+		padding-right: 15px;
+	}
+
 	#about {
 		margin-top: 40px;
 	}
