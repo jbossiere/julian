@@ -62,14 +62,14 @@ a:hover {
 	line-height: 1.7em;
 }
 
-@media only screen and (max-width: 995px) {
+/*@media only screen and (max-width: 995px) {
 	#description {
 		max-width: 70%;
 	}
-	/*#text-div {
+	#text-div {
 		padding-right: 0;
-	}*/
-}
+	}
+}*/
 
 
 @media only screen and (max-width: 500px) {
@@ -86,7 +86,7 @@ a:hover {
 	}
 	#description {
 		margin-top: 30px;
-		/*max-width: 100%*/
+		max-width: auto;
 	}
 	.body-text {
 		font-size: 15px;
