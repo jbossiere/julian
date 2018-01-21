@@ -86,7 +86,7 @@ a:hover {
 	}
 	#description {
 		margin-top: 30px;
-		max-width: auto;
+		max-width: 100%;
 	}
 	.body-text {
 		font-size: 15px;
