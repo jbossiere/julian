@@ -51,11 +51,11 @@ a:hover {
 	padding-right: 60px;
 	top: 50%;
     position: fixed;
-    -webkit-transform: translateY(-70%);
-       -moz-transform: translateY(-70%);
-        -ms-transform: translateY(-70%);
-         -o-transform: translateY(-70%);
-            transform: translateY(-70%);
+    -webkit-transform: translateY(-60%);
+       -moz-transform: translateY(-60%);
+        -ms-transform: translateY(-60%);
+         -o-transform: translateY(-60%);
+            transform: translateY(-60%);
 }
 
 .body-text {
@@ -73,16 +73,15 @@ a:hover {
 
 
 @media only screen and (max-width: 500px) {
-/*    body {
-		margin: auto 10%;
-	}*/
+
 
 	h1 {
 		font-size: 24px;
 	}
 
 	#text-div {
-		padding-right: 15px;
+		left: 0;
+		padding: 0 20px;
 	}
 
 	#about {
