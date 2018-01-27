@@ -6,16 +6,6 @@
   		format('opentype');
 }
 
-/*@font-face {
-	font-family: 'Futura Std';
-  	src: 
-  		local('Futura Bold'),
-  		local('Futura-Bold'),
-  		url('fonts/FuturaStd-Bold.otf')
-  		format('opentype');
-  		font-weight: bold;
-}*/
-
 body {
 	font-family:'Futura Std', sans-serif;
 	background-color: white;
@@ -61,15 +51,6 @@ a:hover {
 .body-text {
 	line-height: 1.7em;
 }
-
-/*@media only screen and (max-width: 995px) {
-	#description {
-		max-width: 70%;
-	}
-	#text-div {
-		padding-right: 0;
-	}
-}*/
 
 
 @media only screen and (max-width: 500px) {
