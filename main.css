@@ -5,20 +5,26 @@
   		url('fonts/FuturaStd-Book.otf')
   		format('opentype');
 }
+@font-face {
+	font-family: 'Futura Std Bold';
+  	src: 
+  		local('Futura Bold'),
+  		url('fonts/FuturaStd-Bold.otf')
+  		format('opentype');
+}
 
 body {
 	font-family:'Futura Std', sans-serif;
 	background-color: white;
 	color: black;
-	font-size: 20px;
+	font-size: 15px;
+	line-height: 1.4em;
+	margin: 1em 1.3em;
+
 }
 
-#about {
-	margin-top: 30px;
-}
-#description {
-	margin-top: 15px;
-	max-width: 80%;
+header {
+	margin-top: 2.7em;
 }
 
 a {
@@ -33,48 +39,20 @@ a:hover {
 	color: #666;
 }
 
-#content {
-	padding: 5% 5%;
-}
-
-#text-div {
-	padding-right: 60px;
-	top: 50%;
-    position: fixed;
+#content h4 {
+	line-height: 1.4em;
+	/*top: 50%;*/
+/*    position: fixed;
     -webkit-transform: translateY(-60%);
        -moz-transform: translateY(-60%);
         -ms-transform: translateY(-60%);
          -o-transform: translateY(-60%);
-            transform: translateY(-60%);
-}
-
-.body-text {
-	line-height: 1.7em;
+            transform: translateY(-60%);*/
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px) {
 
-
-	h1 {
-		font-size: 24px;
-	}
-
-	#text-div {
-		left: 0;
-		padding: 0 20px;
-	}
-
-	#about {
-		margin-top: 40px;
-	}
-	#description {
-		margin-top: 30px;
-		max-width: 100%;
-	}
-	.body-text {
-		font-size: 15px;
-	}
 }
 
 

@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Futura Std';
+  	src: 
+  		local('Futura'),
+  		url('fonts/FuturaStd-Book.otf')
+  		format('opentype');
+}
+@font-face {
+	font-family: 'Futura Std Bold';
+  	src: 
+  		local('Futura Bold'),
+  		url('fonts/FuturaStd-Bold.otf')
+  		format('opentype');
+}
+
+$linkColor: #f33;
+$black: #000;
+$white: #fff;
+$grey: #666;
+
+body {
+	font-family:'Futura Std', sans-serif;
+	background-color: $white;
+	color: $black;
+	font-size: 15px;
+	margin: 2.7em 1.3em;
+	height: 100%;
+}
+
+a {
+	color: $linkColor;
+
+	:visited {
+		color: $linkColor;
+	}
+
+	:hover {
+		color: $grey;
+	}
+}
+
+#content {
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+
+	h4 {
+		line-height: 1.4em;
+	}
+} 
+
+footer {
+	color: $grey;
+	position: fixed;
+	bottom: 2.7em;
+}
+
+
+@media only screen and (min-width: 500px) {
+
+}
