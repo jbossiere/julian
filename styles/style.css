@@ -1,35 +1,52 @@
 @font-face {
   font-family: 'Futura Std';
   src: local("Futura"), url("fonts/FuturaStd-Book.otf") format("opentype"); }
-@font-face {
-  font-family: 'Futura Std Bold';
-  src: local("Futura Bold"), url("fonts/FuturaStd-Bold.otf") format("opentype"); }
+html, body {
+  height: 100%;
+  margin: 0; }
+
 body {
   font-family: 'Futura Std', sans-serif;
-  background-color: #fff;
+  background-color: #fffbed;
   color: #000;
   font-size: 15px;
-  margin: 2.7em 1.3em;
-  height: 100%; }
-
-a {
-  color: #f33; }
-  a :visited {
-    color: #f33; }
-  a :hover {
-    color: #666; }
-
-#content {
-  height: 70vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
-  #content h4 {
-    line-height: 1.4em; }
+  justify-content: space-between;
+  padding: 2.7em 1.3em; }
+
+a {
+  color: #666; }
+
+a:visited {
+  color: #f33; }
+
+a:hover {
+  color: #f33; }
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1; }
+  #content p {
+    line-height: 1.4em;
+    padding-bottom: 1em; }
 
 footer {
-  color: #666;
-  position: fixed;
-  bottom: 2.7em; }
+  color: #666; }
+
+@media only screen and (min-width: 25em) {
+  #content p {
+    max-width: 24em; } }
+@media only screen and (min-width: 30em) {
+  body {
+    padding: 2.7em 3.3em; } }
+@media only screen and (min-width: 55em) {
+  body {
+    padding: 2.7em 5em; }
+
+  #content p {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=style.css.map */

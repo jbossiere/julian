@@ -5,59 +5,83 @@
   		url('fonts/FuturaStd-Book.otf')
   		format('opentype');
 }
-@font-face {
-	font-family: 'Futura Std Bold';
-  	src: 
-  		local('Futura Bold'),
-  		url('fonts/FuturaStd-Bold.otf')
-  		format('opentype');
-}
 
 $linkColor: #f33;
 $black: #000;
 $white: #fff;
 $grey: #666;
 
+html, body {
+	height:100%;
+	// padding:0;
+	margin:0;
+	// width:100%;
+}
+
 body {
 	font-family:'Futura Std', sans-serif;
-	background-color: $white;
+	background-color: #fffbed;
 	color: $black;
 	font-size: 15px;
-	margin: 2.7em 1.3em;
-	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 2.7em 1.3em;
 }
 
 a {
+	color: $grey;
+}
+a:visited {
 	color: $linkColor;
-
-	:visited {
-		color: $linkColor;
-	}
-
-	:hover {
-		color: $grey;
-	}
+}
+a:hover {
+	color: $linkColor;
 }
 
 #content {
-	height: 70vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	flex-grow: 1;
 
 
-	h4 {
+	p {
 		line-height: 1.4em;
+		padding-bottom: 1em;
 	}
 } 
 
 footer {
 	color: $grey;
-	position: fixed;
-	bottom: 2.7em;
+	// position: fixed;
+	// bottom: 2.7em;
 }
 
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 25em) {
+	#content {
+		p {
+			max-width: 24em;
+		}
+	}
+}
+
+@media only screen and (min-width: 30em) {
+	body {
+		padding: 2.7em 3.3em;
+	}
+}
+
+@media only screen and (min-width: 55em) {
+	body {
+		padding: 2.7em 5em;
+	}
+
+	#content {
+		p {
+			font-size: 18px;
+		}
+	}
 
 }
