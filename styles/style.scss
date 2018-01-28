@@ -13,9 +13,7 @@ $grey: #666;
 
 html, body {
 	height:100%;
-	// padding:0;
 	margin:0;
-	// width:100%;
 }
 
 body {
@@ -27,6 +25,12 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 2.7em 1.3em;
+}
+
+header {
+	p {
+		font-size: 1.4em;
+	}
 }
 
 a {
@@ -54,8 +58,6 @@ a:hover {
 
 footer {
 	color: $grey;
-	// position: fixed;
-	// bottom: 2.7em;
 }
 
 
@@ -80,8 +82,36 @@ footer {
 
 	#content {
 		p {
-			font-size: 18px;
+			font-size: 1.2em;
+		}
+	}
+}
+
+@media only screen and (min-width: 75em) {
+	body {
+		padding: 2.7em 7em;
+	}
+}
+
+
+@media only screen and (min-width: 90em) {
+	body {
+		padding: 10em;
+	}
+
+	header {
+		p {
+			font-size: 1.8em;
 		}
 	}
 
+	#content {
+		p {
+			font-size: 1.6em;
+		}
+	}
+
+	footer {
+		font-size: 1.2em;
+	}
 }

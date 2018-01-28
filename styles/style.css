@@ -15,6 +15,9 @@ body {
   justify-content: space-between;
   padding: 2.7em 1.3em; }
 
+header p {
+  font-size: 1.4em; }
+
 a {
   color: #666; }
 
@@ -47,6 +50,21 @@ footer {
     padding: 2.7em 5em; }
 
   #content p {
-    font-size: 18px; } }
+    font-size: 1.2em; } }
+@media only screen and (min-width: 75em) {
+  body {
+    padding: 2.7em 7em; } }
+@media only screen and (min-width: 90em) {
+  body {
+    padding: 10em; }
+
+  header p {
+    font-size: 1.8em; }
+
+  #content p {
+    font-size: 1.6em; }
+
+  footer {
+    font-size: 1.2em; } }
 
 /*# sourceMappingURL=style.css.map */
