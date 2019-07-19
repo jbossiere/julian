@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jb055
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://julianbossiere.com
+  * I am jb055 (https://keybase.io/jb055) on keybase.
+  * I have a public key ASB7i9W9S_fAeKXdqui4r38V43DEYvBJ2q-oQw8HpysTVQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fa47dbc66401616e23a389cbe31d7a90c9af244ecc53752858c8a63eead1938e0a",
+      "host": "keybase.io",
+      "kid": "01207b8bd5bd4bf7c078a5ddaae8b8af7f15e370c462f049daafa8430f07a72b13550a",
+      "uid": "ff1113ce664294dbc045214ede30be19",
+      "username": "jb055"
+    },
+    "merkle_root": {
+      "ctime": 1563570214,
+      "hash": "6824646ea9e1d54a927db6f1ed9dc1b8918ef688d46a5d3d595614ae6222f5ae83f7e3a1b25b1f3129c62294d7cd81bae47a0d7532cd6e6306c36b538ad85c3f",
+      "hash_meta": "dda52e445096614605f78734afd741b7f3ca8088104608f881b7691678a477de",
+      "seqno": 5804310
+    },
+    "service": {
+      "entropy": "ZTQtEWUNmfne1NnrsjJsMSj2",
+      "hostname": "julianbossiere.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1563570226,
+  "expire_in": 504576000,
+  "prev": "a392414c8be384c4acbaa00f8842e8461c70087b31739d8d250aebbc645db26e",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEge4vVvUv3wHil3arouK9/FeNwxGLwSdqvqEMPB6crE1UKp3BheWxvYWTESpcCDcQgo5JBTIvjhMSsuqAPiELoRhxwCHsxc52NJQrrvGRdsm7EIFaR6kwOulGcGIOPe5kIiFtPHLPgiMwJYNACg/9cROLbAgHCo3NpZ8RA3utRemOlr3IcQefaFDAkxD9XeGFNmYDiKntMk85dwsTnq2j/0uEKzbTUXvvz8IhSs6NIt6stBumsN7AHK6LUCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKoS0NfLy/gfpg23ZZbIN5mxOze+Z2srNbZWF8hBGsKRo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jb055
+
+==================================================================
